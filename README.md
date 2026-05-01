@@ -1,6 +1,6 @@
 # Bank Branch Dashboard - Sahel Bank, Khobar 2024
 
-A monthly performance dashboard for a fictional retail bank branch in Al-Khobar, tracking total deposits and loan applications across 2024. Built in Excel using Python.
+A monthly performance dashboard for a fictional retail bank branch in Al-Khobar, tracking total deposits and loan applications across 2024. The final dashboard is an Excel workbook.
 
 The numbers are made up, but the seasonality is based on how this market can behave: the Ramadan deposit spike, the post-Eid financing wave, and the summer slowdown. The goal was to have data that tells a realistic story rather than just fills rows.
 
@@ -24,7 +24,7 @@ December recovered on deposits (79M) as year-end bonuses came in, though borrowi
 
 ## How it was built
 
-Python and openpyxl to generate the workbook programmatically. Update any number in `Branch Data` and the dashboard recalculates automatically.
+The dashboard is built in Excel. I used a small Python/openpyxl helper script to generate the workbook structure and formulas programmatically. Update any number in `Branch Data` and the dashboard recalculates automatically.
 
 ```
 bank_branch_dashboard.xlsx    # the workbook
@@ -38,7 +38,9 @@ python build_dashboard.py
 
 ## Tools
 
-Python, openpyxl, Excel
+Main dashboard: Excel
+
+Supporting script: Python and openpyxl were only used to generate the workbook.
 
 ## Related Portfolio Work
 
